@@ -1,3 +1,5 @@
+package strongPassword;
+
 class Result {
     
     /* STRONG PASSWORD
@@ -34,7 +36,7 @@ class Result {
     }
 }
 
-public class Main {
+public class StrongPasswordMain {
     
     public static void main (String[] args) {
         System.out.println(Result.minimumNumber(3, "Ab1")); // Should print 3
